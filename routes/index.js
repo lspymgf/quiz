@@ -1,5 +1,6 @@
 var express = require('express');
-var quizController = require('../controllers/quiz_controller');
+
+var quizController = require('../controllers/quiz_Controller');
 
 var router = express.Router();
 
