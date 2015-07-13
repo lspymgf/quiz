@@ -13,3 +13,8 @@ exports.answer = function(req,res) {
     res.render('quizes/answer',{respuesta: 'InCorrecto'});	 
   }
 };
+
+//GET /author
+exports.author = function(req, res){
+	res.render('author', {autor: 'LIDIA SERNA PÉREZ'});
+};
